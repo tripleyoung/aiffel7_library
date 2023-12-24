@@ -2,8 +2,10 @@ LICENSE
 README.md
 setup.py
 aiffel7/__init__.py
+aiffel7/get_tf_api_info.py
 aiffel7/my_module.py
 aiffel7.egg-info/PKG-INFO
 aiffel7.egg-info/SOURCES.txt
 aiffel7.egg-info/dependency_links.txt
+aiffel7.egg-info/requires.txt
 aiffel7.egg-info/top_level.txt

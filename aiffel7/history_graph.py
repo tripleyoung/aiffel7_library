@@ -1,3 +1,6 @@
+# 기여자: 윤여원
+# 설명: 간단한 history 그리는 Util
+
 import matplotlib.pyplot as plt
 
 def plot_history(history):

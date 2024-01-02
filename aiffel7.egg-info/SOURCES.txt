@@ -4,8 +4,9 @@ setup.py
 aiffel7/__init__.py
 aiffel7/get_tf_api_info.py
 aiffel7/history_graph.py
-aiffel7/history_logger.py
+aiffel7/historylogger.py
 aiffel7/my_module.py
+aiffel7/version.py
 aiffel7.egg-info/PKG-INFO
 aiffel7.egg-info/SOURCES.txt
 aiffel7.egg-info/dependency_links.txt

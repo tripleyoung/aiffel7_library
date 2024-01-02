@@ -1,6 +1,8 @@
+import os
 import json
 from tensorflow.keras.callbacks import Callback
 import matplotlib.pyplot as plt
+
 
 class HistoryLogger(Callback):
     def __init__(self, log_file):

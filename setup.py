@@ -1,8 +1,11 @@
 from setuptools import setup, find_packages
+version = {}
+with open("aiffel7/version.py") as fp:
+    exec(fp.read(), version)
 
 setup(
     name='aiffel7',
-    version='0.5.5',
+    version=version['__version__'],
     packages=find_packages(),
     description='A simple Python library',
     long_description=open('README.md').read(),
@@ -16,7 +19,7 @@ setup(
         'beautifulsoup4',  # This is the package name for bs4
         'requests',
         'matplotlib',
-        "tensorflow"
+        "tensorflow",
     ],
     classifiers=[
         # PyPI 분류자

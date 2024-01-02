@@ -7,3 +7,6 @@ def greet(name):
 def add(a, b):
     """ 두 숫자의 합을 반환하는 함수 """
     return a + b
+def remmove(a, b):
+    """ 두 숫자의 차이를 반환하는 함수 """
+    return a - b

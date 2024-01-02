@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='aiffel7',
-    version='0.2.2',
+    version='0.5.5',
     packages=find_packages(),
     description='A simple Python library',
     long_description=open('README.md').read(),
@@ -14,7 +14,9 @@ setup(
     install_requires=[
         # 필요한 의존성 패키지 나열
         'beautifulsoup4',  # This is the package name for bs4
-        'requests'
+        'requests',
+        'matplotlib',
+        "tensorflow"
     ],
     classifiers=[
         # PyPI 분류자

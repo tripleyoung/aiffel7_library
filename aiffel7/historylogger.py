@@ -1,3 +1,7 @@
+# 기여자: 윤여원
+# 기여 날짜: [2024-01-02]
+# 설명: 에폭이 끝날때 히스토리 관련 로그를 만들어준다.
+
 import os
 import json
 from tensorflow.keras.callbacks import Callback

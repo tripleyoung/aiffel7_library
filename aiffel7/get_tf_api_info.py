@@ -1,3 +1,7 @@
+# 기여자: 윤지영
+# 기여 날짜: [2023-12-20]
+# 설명: API 정보를 보여줌 
+
 from bs4 import BeautifulSoup
 import requests
 
